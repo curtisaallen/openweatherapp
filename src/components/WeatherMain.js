@@ -4,7 +4,7 @@ import WeatherList  from './WeatherList';
 import { apiKey } from '../helper/apiKey';
 import { apiUrl } from '../helper/apiUrl';
 
-class App extends Component {
+export default class WeatherMain extends Component {
   constructor(props) {
         super(props);
         this.state = { 
@@ -45,5 +45,3 @@ class App extends Component {
     );
   }
 }
-
-export default App;
