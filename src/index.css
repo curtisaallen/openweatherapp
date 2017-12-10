@@ -1,0 +1,26 @@
+body {
+    padding: 1em;
+    background-color: #f3f3f3;
+}
+.row .card {
+    text-align: center;
+}
+.row .card i {
+    font-size: 30px;
+    margin: 1em 0;
+}
+h1 {
+    font-size: 27px;
+}
+.date {
+    margin: 0;
+}
+.card-title i {
+  margin-right: 10px;
+}  
+
+.description:first-letter {
+  text-transform:capitalize;
+}
+
+button:focus {outline:0;}
