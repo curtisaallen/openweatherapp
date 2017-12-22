@@ -24,3 +24,8 @@ h1 {
 }
 
 button:focus {outline:0;}
+
+.alert-info {
+    width: 100%;
+    margin-top: 7px;
+}
