@@ -10,7 +10,7 @@ export default class WeatherForm extends React.Component {
     }
     onSubmit = (e) => {
       e.preventDefault();
-      if(this.state.zipcode.length != 0 ){
+      if(this.state.zipcode.length !== 0 ){
         this.props.onSubmit(this.state.zipcode);
         this.setState({zipcode: '', zipcodeValid: false});
       } else {
